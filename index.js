@@ -66,7 +66,7 @@ const multiplyFunction = () => {
 
 const divideFunction = () => {
     if (num2 === 0) {
-        console.log("You can't put 0 on the divisor");
+        alert("You can't put 0 on the divisor");
         //resultParagraph.textContent = "You can't put 0 on the divisor";
     } else {
         const sum = num1 / num2;
