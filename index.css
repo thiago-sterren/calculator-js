@@ -18,4 +18,9 @@ button {
     font-weight: bold;
     cursor: pointer;
     padding: 5px 8px;
+    border-radius: 10px;
+}
+
+#clear-nums-btn {
+    background-color: red;
 }

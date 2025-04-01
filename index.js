@@ -51,25 +51,26 @@ const resultParagraph = document.getElementById("sum-el");
 
 const addFunction = () => {
     const sum = num1 + num2;
-    resultParagraph.textContent = `Sum: ${sum}`;
+    resultParagraph.textContent = `Result: ${sum}`;
 }
 
 const subtractFunction = () => {
     const sum = num1 - num2;
-    resultParagraph.textContent = `Sum: ${sum}`;
+    resultParagraph.textContent = `Result: ${sum}`;
 }
 
 const multiplyFunction = () => {
     const sum = num1 * num2;
-    resultParagraph.textContent = `Sum: ${sum}`;
+    resultParagraph.textContent = `Result: ${sum}`;
 }
 
 const divideFunction = () => {
     if (num2 === 0) {
-        alert("You can't put 0 on the divisor");
+        console.log("You can't put 0 on the divisor");
+        //resultParagraph.textContent = "You can't put 0 on the divisor";
     } else {
         const sum = num1 / num2;
-        resultParagraph.textContent = `Sum: ${sum}`;   
+        resultParagraph.textContent = `Result: ${sum}`;   
     }
 }
 
